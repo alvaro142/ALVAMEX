@@ -7,7 +7,12 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
 .formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
     width: 500px;
     max-width: 100%;
     margin: auto;
@@ -26,7 +31,7 @@ body {
 .formulario__input, .forumlario__label,
 .formulario__submit {
     display: block;
-    width: 50%;
+    width: 80%;
     font-size: 1.3em;
     border-radius: 5px;
 }
